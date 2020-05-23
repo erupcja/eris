@@ -732,6 +732,7 @@ declare namespace Eris {
     getAllUsers?: boolean;
     guildCreateTimeout?: number;
     guildSubscriptions?: boolean;
+    isBot?: boolean;
     intents?: number | IntentStrings[];
     largeThreshold?: number;
     lastShardID?: number;
