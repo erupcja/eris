@@ -1,5 +1,5 @@
 {
-  "name": "eris",
+  "name": "@erupcja/selfbot-eris",
   "version": "0.13.1",
   "description": "A NodeJS Discord library",
   "main": "./index.js",
@@ -25,7 +25,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/abalabahaha/eris.git"
+    "url": "git+https://github.com/erupcja/eris.git"
   },
   "keywords": [
     "api",
@@ -34,12 +34,16 @@
     "eris",
     "wrapper"
   ],
-  "author": "abalabahaha",
+  "author": "selfisekai <laura@selfisekai.rocks>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/abalabahaha/eris/issues"
+    "url": "https://github.com/erupcja/eris/issues"
   },
-  "homepage": "https://abal.moe/Eris/",
+  "homepage": "https://github.com/erupcja/eris",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
   "dependencies": {
     "ws": "^7.2.1"
   },
